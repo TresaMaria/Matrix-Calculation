@@ -1,0 +1,86 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(206, 203, 162);
+}
+
+.container {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: beige;
+    box-shadow: 0 0 10px #726b45;
+}
+
+.header {
+    text-align: center;
+    color: black;
+}
+
+#MatrixInput {
+    text-align: center;
+}
+
+#MatrixInput label {
+    font-weight: bold;
+}
+
+input,
+button,
+a {
+    margin: 8px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 1px solid #555035;
+    text-align: center;
+}
+
+button,
+a {
+    margin-bottom: 20px;
+    background-color: #777047;
+    color: beige;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover,
+a:hover {
+    background-color: black;
+}
+
+a {
+    width: 15%;
+    text-decoration: none;
+}
+
+#generatedMatrix {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#generatedMatrix input {
+    width: 50px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: rgb(243, 252, 228);
+}
+
+.matrix,.Matrix1,.Matrix2 {
+    margin: 15px;
+}
+
+.resultHead {
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    margin: 10px;
+}
+
+#result {
+    margin: 10px;
+    text-align: center;
+}

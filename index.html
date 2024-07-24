@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Matrix Addition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>
+                Matrix Addition
+            </h1>
+        </div>
+        <div id="MatrixInput">
+            <label for="rows">Rows:</label>
+            <input type="number" id="rows" min="1" placeholder="Enter the number of rows">
+            <label for="columns">Columns:</label>
+            <input type="number" id="columns" min="1" placeholder="Enter the number of columns">
+            <button onclick="CreateMatrix()">Generate</button>
+        </div>
+        <div id="generatedMatrix">
+        </div>
+        <div id="result">
+            <div id="resultDisplay">
+                <button onclick="AddMatrix()">ADD</button>
+            </div>
+            <a class="add" href="Product.html">Go to Multiplication</a>
+        </div>
+    </div>
+    <script src="sum.js"></script>
+</body>
+
+</html>
